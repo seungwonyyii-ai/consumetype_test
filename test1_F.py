@@ -94,11 +94,11 @@ def move_back():
 
 
 def main():
-    st.set_page_config(page_title='내 월급은 어디서 사라질까?', page_icon='💗', layout='centered')
+    st.set_page_config(page_title='내 월급은 어디서 사라질까?', page_icon='💸', layout='centered')
     html("""<style>
     :root{--pink:#A64D6B;--ink:#282631;--muted:#77727E;}
     .stApp{background:#FAF8FA;color:var(--ink);}
-    .block-container{max-width:740px;padding:2.2rem 1.3rem 4rem;}
+    .block-container{max-width:740px;padding:6rem 1.3rem 4rem;}
     h1,h2,h3,p{word-break:keep-all;overflow-wrap:break-word;}
     h1,h2,h3{letter-spacing:-.045em;color:var(--ink);}
     .eyebrow{color:var(--pink);font-size:12px;font-weight:800;letter-spacing:.12em;margin-bottom:20px;}
